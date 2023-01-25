@@ -1,0 +1,105 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.App{
+  min-height: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+nav{
+  background-color: grey;
+  width: 100vh;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.link {
+  margin: 0 .5rem;
+  color: white;
+  text-decoration: none;
+  text-shadow:  0px 1px 1px black;
+  font-size: larger;
+}
+
+ul>div{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+main {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolioDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  min-height: 90vh;
+  overflow-x: scroll;
+}
+
+.portfolioCard {
+  min-height: 20rem;
+  margin: 1rem;
+}
+
+.card {
+  min-height: 20rem;
+  min-width: 20rem;
+}
+
+
+
+.auth-form-container {
+  box-shadow: 0px 0px 3px black;
+  min-height: 10rem;
+  width: 30rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  h2 {
+    font-size: larger;
+  }
+  button {
+    border-radius: 1rem;
+    height: 2.5rem;
+    margin: .2rem;
+    margin-bottom: 1rem;
+  }
+  input {
+    width: 10rem;
+    margin: 0 10rem
+  }
+}
+
+
+
+
+.Footer {
+  background-color: grey;
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
